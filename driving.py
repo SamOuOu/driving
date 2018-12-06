@@ -8,9 +8,9 @@ if country == '台灣' or '臺灣':
         print('你可以在台灣考駕照開車撞人')
     else:
         print('你不能考駕照開車撞人')
-        if country == '美國' or 'USA':
-            if age >= 16:
-                print('你可以在美國考駕照開車撞人')
-            else:
-                print('你不能考駕照開車撞人')
+elif country == '美國' or 'USA':
+    if age >= 16:
+        print('你可以在美國考駕照開車撞人')
+    else:
+        print('你不能考駕照開車撞人')
         
